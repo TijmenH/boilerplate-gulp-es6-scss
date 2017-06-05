@@ -1,7 +1,7 @@
 import Hello from './components/greeting/hello';
 
 /**
-* ENTRY FILE for JS, include this in the head of your html!
+* ENTRY JS FILE
 *
 */
 document.addEventListener('DOMContentLoaded', () => {
