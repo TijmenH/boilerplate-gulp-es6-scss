@@ -1,0 +1,12 @@
+.main-wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	.greeting {
+		&__title {
+			font-size: 1.8rem;
+			color: $red;
+		}
+	}
+}
