@@ -1,11 +1,12 @@
 # Boilerplate
 Boilerplate for new project set-up with gulp, webpack and more.
-Tried it keeping it minimal as possible, but still comfortable enough in order to not do a lot yourself.
+Tried keeping it minimal as possible, but still comfortable enough in order to not do a lot yourself.
 
-Boilerplate for building webapps, using:
+Boilerplate for building webapps, using;
 * Gulp to convert scss to css, combine and minify.
 * Webpack to convert ES6 to ES5 and combines, future: minify.
-* in the future: Watching for file changes.
+* In the future: Watching for file changes.
+* Probably more
 
 ## How to use
 1. Install all packages by running 'npm i'
