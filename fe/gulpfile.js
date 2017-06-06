@@ -16,7 +16,6 @@ const suffixMin = {suffix: '.min'};
 // Functions
 const destBuildCmd = () => gulp.dest('../html/assets'); // Target folder for script and style
 
-// @TODO bundle, minify and convert .scss files
 gulp.task('scss', () => {
 	return gulp.src('src/scss/main.scss')
 		.pipe(print())
