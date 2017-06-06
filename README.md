@@ -6,7 +6,7 @@ Boilerplate for building webapps, using;
 * Gulp to convert scss to css, combine and minify.
 * Webpack to convert ES6 to ES5 and combines, future: minify.
 * Npm-watch for watching for file changes and running npm script.
-* Scss & es6 linters
+* In the future: Scss & es6 linters
 * Probably more (in the future)...
 
 ## How to use
