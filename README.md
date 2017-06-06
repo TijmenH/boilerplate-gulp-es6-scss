@@ -21,4 +21,4 @@ Boilerplate for building webapps, using;
 	* 'fe/src/js/components' (but NOT app.js!)
 	* 'fe/src/scss/components'
 	* 'fe/src/scss/config' (but NOT main.scss!)
-	* 'html/assets'
+	* 'html/components' (Don't forget to change index.php)
