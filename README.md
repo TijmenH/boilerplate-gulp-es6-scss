@@ -14,7 +14,11 @@ Boilerplate for building webapps, using;
 2. Run 'npm run build' from terminal to build everything or 'npm run watch' to watch for changes (and build, initially).
 3. Run 'npm run dev-server' to locally run a php server (mac)
 4. Visit localhost, if notice text appears green; all is probably ok!
-5. For a clean project, remove: 'fe/src/js/components' (but NOT app.js!), 'fe/src/scss/components', 'fe/src/scss/config' (but NOT main.scss!) and 'html/assets'.
 
 ## Notes
 - 'gulp-sass-glob' makes it possible all scss files in the components folder are imported automatically. Because the file order is important in css (and therefore some people choose to import everything manually, for me automatically works), you might want to remove this.
+- For a clean project, remove;
+	* 'fe/src/js/components' (but NOT app.js!)
+	* 'fe/src/scss/components'
+	* 'fe/src/scss/config' (but NOT main.scss!)
+	* 'html/assets'
