@@ -1,5 +1,5 @@
 # Boilerplate
-Boilerplate for new project set-up with gulp, webpack and more. Done partly for learning and partly for future me who needs a quick project set-up. Feel free to use for whatever you want and experiment with it. Feedback/tips always welcome! :)
+Boilerplate for new project set-up with gulp, webpack and more. Done partly for learning and partly for future me who needs a quick project set-up. Feel free to use for whatever you want. Feedback/tips always welcome! :)
 Tried keeping it minimal as possible, but still comfortable enough in order to not do a lot yourself.
 
 Boilerplate for building webapps, using;
