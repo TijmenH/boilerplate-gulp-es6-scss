@@ -1,15 +1,13 @@
-import Hello from './components/greeting/hello';
+import NoticeHandler from './components/notice/noticeHandler';
 
 /**
 * ENTRY JS FILE
-*
+* Use this file to run all JS scripts
 */
 document.addEventListener('DOMContentLoaded', () => {
-	console.log('Ready!');
-	/**
-	* Other JS files here, with some way of only including them when needed.
-	*/
-	if (document.querySelector('.greeting')) {
-		new Hello();
+	if (document.querySelector('.notice')) {
+		new NoticeHandler();
 	}
+
+	console.log('app.js OK!');
 });

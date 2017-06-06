@@ -1,0 +1,31 @@
+.notice {
+	width: 500px;
+	background: $white-shade;
+	padding: 24px 24px;
+
+	&__title {
+		font-size: 1.8rem;
+		color: $red;
+		margin-bottom: 12px;
+	}
+
+	&__message {
+		font-size: 1rem;
+		color: $red;
+		margin-bottom: 18px;
+
+		&-info {
+			font-size: 0.8rem;
+			color: $grey;
+			margin-bottom: 6px;
+		}
+	}
+
+	&--green {
+		.notice {
+			&__title, &__message {
+				color: $green;
+			}
+		}
+	}
+}

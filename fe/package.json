@@ -3,13 +3,26 @@
 	"version": "0.0.1",
 	"description": "A boilerplate (WIP) for new projects where es6, scss and more can be used right off the bat and bare minimum packages",
 	"main": "app.js",
+	"watch": {
+		"build": {
+			"patterns": [
+				"src/*"
+			],
+			"extensions": [
+				"*"
+			]
+		}
+	},
 	"scripts": {
 		"dev-server": "sudo php -S localhost:80 -t ../html",
-		"build": "gulp && webpack"
+		"build": "gulp && webpack",
+		"test": "",
+		"watch": "npm-watch build"
 	},
 	"author": "Tijmen Helder",
 	"license": "ISC",
 	"devDependencies": {
+		"babel-core": "^6.24.1",
 		"babel-loader": "^7.0.0",
 		"babel-preset-es2015": "^6.24.1",
 		"gulp": "^3.9.1",
@@ -20,6 +33,7 @@
 		"gulp-sass": "^3.1.0",
 		"gulp-sass-glob": "^1.0.8",
 		"gulp-uglify": "^3.0.0",
+		"npm-watch": "^0.1.9",
 		"webpack": "^2.6.1"
 	}
 }

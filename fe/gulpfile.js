@@ -9,7 +9,6 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob'); // For using global import for sass files
 const minifyCss = require('gulp-minify-css');
-const webpack = require('webpack-stream');
 
 // Vars
 const suffixMin = {suffix: '.min'};
@@ -31,5 +30,5 @@ gulp.task('scss', () => {
 
 gulp.task('build', ['scss']);
 
-gulp.task('watch', () => gulp.watch('src/**/*.*', ['build']));
+// gulp.task('watch', () => gulp.watch('src/**/*.*', ['build']));
 gulp.task('default', ['build']);

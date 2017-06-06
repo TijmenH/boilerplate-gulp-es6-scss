@@ -7,12 +7,7 @@
 	</head>
 	<body>
 		<div class="main-wrapper">
-			<div class="greeting">
-				<h1 class="greeting__title">Initializing!</h1>
-				<p class="greeting__content">
-					Welcome to my awesome new app. You can start making me awesome now!
-				</p>
-			</div>
+			<?php include 'components/notice/notice.php'; ?>
 		</div>
 	</body>
 </html>
